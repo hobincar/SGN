@@ -1,5 +1,6 @@
 # Semantic Grouping Network for Video Captioning
 Hobin Ryu, Sunghun Kang, Haeyong Kang, and Chang D. Yoo. AAAI 2021.
+[[arxiv]](https://arxiv.org/abs/2102.00831)
 
 # Environment
 
