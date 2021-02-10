@@ -32,7 +32,22 @@ Hobin Ryu, Sunghun Kang, Haeyong Kang, and Chang D. Yoo. AAAI 2021.
       $ python -m split.MSVD
       $ python -m split.MSR-VTT
       ```
-
+   *Or, you can skip these and download below files*
+   * MSVD
+     - ResNet-101 [[train]](https://drive.google.com/file/d/1dRg6cfee92tnulT6syPpt1a696ZTYPwb/view?usp=sharing)
+                  [[val]](https://drive.google.com/file/d/1g_uXfrr41inUy92Ez44wiNv5ZVIGT5l5/view?usp=sharing)
+                  [[test]](https://drive.google.com/file/d/11GsImQ8vhu1HpkQx4XnVGiM6r-enc2aP/view?usp=sharing)
+     - 3D-ResNext-101 [[train]](https://drive.google.com/file/d/1-o-KQRXq-ICjDFSmyj-tyC4a-BcUW6VD/view?usp=sharing)
+                      [[val]](https://drive.google.com/file/d/1jPc0zsv3kGukV8KtuJXs4mv4oMRLDUku/view?usp=sharing)
+                      [[test]](https://drive.google.com/file/d/1dklmabW4CdjSCH6um-Yu8WjgeGPwwNla/view?usp=sharing)
+   * MSR-VTT
+     - ResNet-101 [[train]](https://drive.google.com/file/d/1C_DXGOXIIgvgoBog1pwejTOAeW0HX4rW/view?usp=sharing)
+                  [[val]](https://drive.google.com/file/d/10ZpgO-LTdxwQNyKDudd1yRVZvv2HQty-/view?usp=sharing)
+                  [[test]](https://drive.google.com/file/d/1YletZy4YVLkM_lnF4zzvinAswlo5dIPM/view?usp=sharing)
+     - 3D-ResNext-101 [[train]](https://drive.google.com/file/d/1ieGl5eB4LwP90gQcpztwlhWMsbNURtm-/view?usp=sharing)
+                      [[val]](https://drive.google.com/file/d/10zkim64Uk9yptPmBX3tky-CJy4z-Njl5/view?usp=sharing)
+                      [[test]](https://drive.google.com/file/d/1jmXa8Lf9vIFK1_nQzQ1mbpyxums7ZyXY/view?usp=sharing)
+                      
 ### 3. Prepare The Code for Evaluation
    Clone the evaluation code from [the official coco-evaluation repo](https://github.com/tylin/coco-caption).
    ```
