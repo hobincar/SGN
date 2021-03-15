@@ -21,18 +21,19 @@ Hobin Ryu, Sunghun Kang, Haeyong Kang, and Chang D. Yoo. AAAI 2021.
    ```
 
 ### 2. Prepare Data
-   1. Extract features from datasets and locate them at `data/<DATASET>/features/<NETWORK>.hdf5`.
+   1. Download the GloVe Embedding from [here](https://drive.google.com/file/d/12l40qeIi5zioX2WaVBLXD_oarc8zbaqG/view?usp=sharing) and locate it at `data/Embeddings/GloVe/GloVe_300.json`.
+   2. Extract features from datasets and locate them at `data/<DATASET>/features/<NETWORK>.hdf5`.
    
       > e.g. ResNet101 features of the MSVD dataset will be located at `data/MSVD/features/ResNet101.hdf5`.
    
       > I refer to [this repo](https://github.com/hobincar/pytorch-video-feature-extractor) for extracting the ResNet101 features, and [this repo](https://github.com/kenshohara/video-classification-3d-cnn-pytorch) for extracting the 3D-ResNext101 features.
 
-   2. Split the features into train, val, and test sets by running following commands.
+   3. Split the features into train, val, and test sets by running following commands.
       ```
       $ python -m split.MSVD
       $ python -m split.MSR-VTT
       ```
-   *Or, you can skip these and download below files*
+   *You can skip step 2-3 and download below files*
    * MSVD
      - ResNet-101 [[train]](https://drive.google.com/file/d/1dRg6cfee92tnulT6syPpt1a696ZTYPwb/view?usp=sharing)
                   [[val]](https://drive.google.com/file/d/1g_uXfrr41inUy92Ez44wiNv5ZVIGT5l5/view?usp=sharing)
