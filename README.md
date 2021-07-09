@@ -68,6 +68,12 @@ Hobin Ryu, Sunghun Kang, Haeyong Kang, and Chang D. Yoo. AAAI 2021.
    $ python train.py
    ```
    You can change some hyperparameters by modifying `config.py`.
+   
+*Pretrained Models - SGN(R101+RN)*
+* MSVD: https://drive.google.com/file/d/12Xjd8VdDiyvBxM9sPnnXz87Wa_eVv0ii/view?usp=sharing
+* MSR-VTT: https://drive.google.com/file/d/1kx7FBi2UBCgIP7R9ideMpwXY0Gnqn7Yx/view?usp=sharing
+
+*\*Disclaimer: The models above do not have the same weight as the models used in the paper (I trained them again because I lost).*
 
 ### 6. Evaluate
    ```
